@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funzo-Socket.io chat app</title> 
+    
+    
+
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script> <!-- This Creates  io -->
+    <script defer src="jscode/chatjs.js"></script>
+   
+
+
+    <link rel="stylesheet" href="chatcss/csschat.css">
+
+</head>
+<body>
+    <nav>
+        
+        <img class="logo" src="funzo logoimg.jpg" alt="">
+        <h1>Welcome to <span style="color:#a43737">F</span>
+            <span style="color:#3958b1">U</span>
+            <span style="color:#bc4d15">N</span>
+            <span style="color:#0b8a48">Z</span>
+            <span style="color:#FF0066">O</span></h1>
+        
+        
+    </nav>
+    <div class="container">
+        <div class="message right">Anuradha:Hey there!</div>
+        <div class="message left">Shivesh:hello:)</div>
+        <div class="message left">Radha:hello guys!)</div>
+    </div>
+
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="messageinp" id="messageinp">
+            <button class="btn" type="submit">send</button>
+        </form>
+    </div>
+    
+</body>
+</html>
